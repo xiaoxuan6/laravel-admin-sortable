@@ -1,9 +1,18 @@
 {
     "name": "james.xue/laravel-admin-sortable",
-    "description": "description...",
+    "description": "Sortable behaviour for eloquent models",
     "type": "library",
-    "keywords": ["laravel-admin", "extension", "sortable"],
-    "homepage": "https://github.com/laravel-admin-ext/laravel-admin-sortable",
+    "keywords": [
+        "laravel-admin",
+        "extension",
+        "sort",
+        "sortable",
+        "eloquent",
+        "model",
+        "laravel",
+        "behaviour"
+    ],
+    "homepage": "https://github.com/xiaoxuan6/laravel-admin-sortable.git",
     "license": "MIT",
     "authors": [
         {
