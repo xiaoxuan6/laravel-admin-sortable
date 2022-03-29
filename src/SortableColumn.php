@@ -1,10 +1,15 @@
 <?php
-
+/**
+ * This file is part of PHP CS Fixer.
+ *
+ * (c) vinhson <15227736751@qq.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 namespace Encore\Sortable;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Column;
+use Encore\Admin\{Admin, Grid};
 use Encore\Admin\Grid\Displayers\AbstractDisplayer;
 
 class SortableColumn extends AbstractDisplayer
@@ -52,5 +57,4 @@ $('.{$this->grid->getGridRowName()}-orderable').on('click', function() {
 });
 EOT;
     }
-
 }
